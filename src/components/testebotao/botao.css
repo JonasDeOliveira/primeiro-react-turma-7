@@ -1,0 +1,9 @@
+.teste-botao {
+    background-color: blue;
+    color: #fff;
+    font-weight: bold;
+    font-size:20px;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px
+}
