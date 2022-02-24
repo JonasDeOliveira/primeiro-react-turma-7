@@ -3,10 +3,12 @@ import './Produto.css'
 
 function Produto(props) {
 
+    console.log(props)
+
     let btnClasses = 'btn-comprar '
-    btnClasses += props.verde ? 'verde' : ''
-    btnClasses += props.azul ? 'azul' : ''
-    btnClasses += props.preto ? 'preto' : ''
+    btnClasses += props.verde ? 'verde ' : ''
+    btnClasses += props.azul ? 'azul ' : ''
+    btnClasses += props.textoMaior ? 'texto-maior': ''
 
     return (
         <>

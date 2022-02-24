@@ -35,6 +35,10 @@
     opacity: 0.8;
 }
 
+.texto-maior {
+    font-size: 30px;
+}
+
 .verde {
     background-color: rgb(8, 243, 0);
 }
