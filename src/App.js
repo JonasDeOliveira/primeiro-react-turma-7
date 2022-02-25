@@ -1,16 +1,27 @@
 import './App.css'
+import FormCadastro from './components/revisao/FormCadastro';
+import FormLogin from './components/revisao/FormLogin';
+import Pai from './components/revisao/Pai'
 // import Familia from './components/children/Familia'
 // import Membro from './components/children/Membro'
 // import ParImpar from './components/condicional/ParImpar'
 // import UsuarioLogado from './components/condicional/UsuarioLogado'
 // import ListaProdutos from './components/Lista/ListaProdutos'
 // import DigiteSeuNome from './components/DigiteSeuNome'
-import CadastroNome from './components/classe/CadastroNome'
+// import CadastroNome from './components/classe/CadastroNome'
 
 function App () {
   return (
     <div>
-      <CadastroNome nome="Ronaldo"/>
+
+      {/* <Pai/> */}
+      {/* <FormCadastro /> */}
+      <FormLogin />
+
+
+
+
+      {/* <CadastroNome nome="Ronaldo"/> */}
       {/* <DigiteSeuNome/> */}
       {/* <ListaProdutos/> */}
 

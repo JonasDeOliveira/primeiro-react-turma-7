@@ -12,6 +12,7 @@ class CadastroNome extends Component {
     render() {
         return (
             <div>
+                <h2>Props: {this.props.nome}</h2>
                 <h2>{this.state.nome}</h2>
                 <input type="text"
                     placeholder="Digite seu nome"
